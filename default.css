@@ -57,6 +57,17 @@ h6 { font-size: 16px;}
   margin: 0 auto;
 }
 
+.greeting-wrapper {
+  display: grid;
+
+  /*justify-content: center; !* align center horizontally *!*/
+  text-align: center; /* this is another way to do it but basically the same as above */
+
+  align-content: center; /* align center vertically */
+  border: 2px dashed lightcoral;
+  min-height: 10em;
+}
+
 @media screen and (max-width: 1200px){
   .main-container {
     width: 95%;
