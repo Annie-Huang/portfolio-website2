@@ -4,6 +4,8 @@ https://www.youtube.com/channel/UCTZRcDjjkVajGL6wd76UnGg
 https://github.com/divanov11/portfolio-website
 https://github.com/Annie-Huang/portfolio-website2
 
+https://fonts.google.com/specimen/Russo+One?query=russo&sidebar.open&selection.family=Russo+One
+https://fonts.google.com/specimen/Roboto+Mono?query=roboto&sidebar.open&selection.family=Roboto+Mono:wght@500|Russo+One
 ========================================================================================
 
 C:\react\portfolio-website2>npm init -y
