@@ -79,7 +79,7 @@ h6 { font-size: 16px;}
 
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 3em 30em; /*set the first row to 3em height, second row to 30em height */
+  /*grid-template-rows: 3em 30em; !*set the first row to 3em height, second row to 30em height *!*/
   grid-template-areas:
     'nav-wrapper nav-wrapper'
     'left-column right-column';
