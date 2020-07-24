@@ -86,6 +86,9 @@ h6 { font-size: 16px;}
 }
 
 .nav-wrapper {
+  /* Need to apply the same border radius on your child otherwise there will be a gap in the tip of the corner */
+  border-radius: 5px 5px 0 0;
+
   /* Doesn't have to call the same name as the class */
   grid-area: nav-wrapper;
 
@@ -95,7 +98,7 @@ h6 { font-size: 16px;}
   display: flex;
   justify-content: space-between;
   align-items: center; /* Makes the item center in vertically */
-
+  background-color: var(--mainColor);
 }
 
 .dots-wrapper {
