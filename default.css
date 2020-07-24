@@ -101,6 +101,16 @@ h6 { font-size: 16px;}
   background-color: var(--mainColor);
 }
 
+#navigation {
+  margin: 0;
+  padding: 10px;
+}
+
+/* Ensure each li can display as a inline-block*/
+#navigation li {
+  display: inline-block;
+}
+
 .dots-wrapper {
   display: flex;
 }
