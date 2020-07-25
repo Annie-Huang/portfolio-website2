@@ -276,6 +276,7 @@ h6 { font-size: 16px;}
      but each column should never be smaller than 320px in width. If it is small than 300px, stack it by one by vertically.*/
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   padding: 50px 0;
+  gap: 100px;
 }
 
 #skills {
