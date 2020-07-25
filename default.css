@@ -269,6 +269,14 @@ h6 { font-size: 16px;}
   left: -5px
 }
 
+/* Another way to make grid auto adjustable instead of setting mobile view through media query*/
+.about-wrapper {
+  display: grid;
+  /* It means you can auto-fit how many columns evenly you want within this row,
+     but each column should never be smaller than 320px in width. If it is small than 300px, stack it by one by vertically.*/
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
 @media screen and (max-width: 1200px){
   .main-container {
     width: 95%;
