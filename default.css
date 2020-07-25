@@ -212,6 +212,7 @@ h6 { font-size: 16px;}
   grid-area: right-column;
   /*border: 1px dashed lightcoral;*/
 
+  padding: 50px 0;
   display: grid;
   align-content: center;
 }
@@ -274,7 +275,19 @@ h6 { font-size: 16px;}
   }
 }
 
+@media screen and (max-width: 800px){
+  .intro-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    'nav-wrapper'
+    'left-column'
+    'right-column';
+  }
 
+  .right-column {
+    justify-content: center;
+  }
+}
 
 
 
