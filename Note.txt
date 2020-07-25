@@ -12,6 +12,6 @@ https://www.cssmatic.com/box-shadow
 
 C:\react\portfolio-website2>npm init -y
 
-
+I am skipping the section of "Hosting Our Website"
 
 
