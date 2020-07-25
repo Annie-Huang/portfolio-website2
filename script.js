@@ -1,5 +1,8 @@
 console.log("It's working");
 
+let theme = localStorage.getItem('theme');
+theme ? setTheme(theme) : setTheme('light');
+
 let themeDots = document.getElementsByClassName('theme-dot');
 
 // Cannot use forEach here because document.getElementsByClassName returns a HTMLCollectionOf<Element>;
@@ -12,7 +15,7 @@ for(var i = 0; i < themeDots.length; i++) {
   })
 }
 
-setTheme = (mode) => {
+function setTheme(mode) {
   switch (mode) {
     case 'light':
       document.getElementById('theme-style').href = 'default.css';
@@ -29,4 +32,6 @@ setTheme = (mode) => {
     default:
       document.getElementById('theme-style').href = 'default.css';
   }
+
+  localStorage.setItem('theme', mode);
 }
