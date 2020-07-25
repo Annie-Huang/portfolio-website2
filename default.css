@@ -10,6 +10,8 @@
   --themeDotBorder: #24292e;
 
   --previewBg:rgba(251, 249, 243, 0.8); /* This has some transparency in the backgound */
+  --previewShadow: #f0ead6;
+
 }
 
 html, body {
@@ -209,6 +211,21 @@ h6 { font-size: 16px;}
 .right-column {
   grid-area: right-column;
   /*border: 1px dashed lightcoral;*/
+
+  display: grid;
+  align-content: center;
+}
+
+/* Interesting idea, in order to get the two layer effect, you don't need to create
+   2 identical box and absolute position it. you can just create the behide one smaller than the first one.
+   and then add padding-left and padding-top
+*/
+#preview-shadow {
+  background-color: var(--previewShadow);
+  width: 300px;
+  height: 180px;
+  padding-left: 30px;
+  padding-top: 30px;
 }
 
 #preview {
