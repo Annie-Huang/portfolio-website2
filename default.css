@@ -33,6 +33,7 @@ p, li, span, label, input, textarea {
 a {
   text-decoration: none;
   color: #17a2b8;
+  font-family: 'Roboto Mono', monospace;
 }
 
 ul {
@@ -329,6 +330,10 @@ h6 { font-size: 16px;}
 }
 .post-intro {
   color: #4b5156;
+  font-size: 14px;
+}
+
+.post-preview a {
   font-size: 14px;
 }
 
